@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー | スマートレジ</title>
+<style>
+  :root {
+    --navy: #1B2A4A;
+    --camel: #B08D57;
+    --off-white: #F5F1EA;
+    --charcoal: #2B2B2B;
+    --rule: #DED6C6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--off-white);
+    color: var(--charcoal);
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+    line-height: 1.85;
+  }
+  header {
+    background: var(--navy);
+    color: var(--off-white);
+    padding: 56px 24px 40px;
+  }
+  header .inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: var(--camel);
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    font-weight: 600;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #C9D0DE;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 18px;
+    color: var(--navy);
+    border-left: 4px solid var(--camel);
+    padding-left: 12px;
+    margin: 0 0 16px;
+  }
+  h3 {
+    font-size: 15px;
+    color: var(--navy);
+    margin: 20px 0 6px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--charcoal);
+  }
+  ul {
+    padding-left: 20px;
+    margin: 8px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th {
+    color: var(--navy);
+    font-weight: 600;
+    width: 30%;
+    background: #EFE9DD;
+  }
+  .note {
+    background: #EFE9DD;
+    border-left: 4px solid var(--camel);
+    padding: 14px 16px;
+    font-size: 14px;
+    color: var(--charcoal);
+  }
+  .placeholder {
+    color: var(--camel);
+    font-weight: 600;
+  }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #8A8378;
+    padding: 24px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="eyebrow">Privacy Policy</p>
+    <h1>スマートレジ プライバシーポリシー</h1>
+    <p class="subtitle">最終更新日：<span class="placeholder">2026年7月26日</span></p>
+  </div>
+</header>
+
+<main>
+
+<section>
+<p>
+本プライバシーポリシー（以下「本ポリシー」）は、<span class="placeholder">［伊藤　滋］</span>（以下「開発者」）が提供するAndroidアプリケーション「スマートレジ」（以下「本アプリ」）における、利用者情報の取り扱いについて定めるものです。本アプリをご利用いただく前に、本ポリシーの内容をご確認ください。
+</p>
+</section>
+
+<section>
+<h2>1. 本アプリの概要</h2>
+<p>
+本アプリは、日本国内の小売店舗のレジにおいて、複数のQRコード決済アプリ・ポイントカードアプリ（PayPay、d払い、au PAY、楽天ペイ等）を音声またはタップ操作ですばやく起動・連携させるための操作アシスタントです。
+</p>
+</section>
+
+<section>
+<h2>2. 取得する情報とその利用目的</h2>
+
+<h3>2-1. 音声データ</h3>
+<p>
+本アプリは、店舗名や操作コマンドの音声入力を受け付けるため、マイクへのアクセス（RECORD_AUDIO権限）を使用します。音声データは音声認識のためにOSまたはGoogleが提供する音声認識エンジンに送信され、テキストへの変換に利用されます。開発者が音声データ自体を録音・保存・収集することはありません。
+</p>
+
+<h3>2-2. 位置情報</h3>
+<p>
+現在地に基づいて店舗を自動検出し、あらかじめ登録されたチェーン（アプリの起動順序設定）を提案するため、端末の位置情報（GPS座標／おおよその位置情報）を取得します。位置情報は端末内での店舗検出処理にのみ利用され、開発者のサーバーに送信・保存されることはありません。
+</p>
+
+<h3>2-3. インストール済みアプリ情報</h3>
+<p>
+決済アプリ・ポイントカードアプリを起動するため、対象アプリが端末にインストールされているかを確認します（Android 11以降のパッケージ可視性の仕組みによる）。これは特定の決済アプリを起動できるかどうかを判定する目的にのみ利用され、インストール済みアプリの一覧が外部に送信されることはありません。
+</p>
+
+<h3>2-4. 画面キャプチャ・OCRによる店舗名認識</h3>
+<p>
+店舗名の自動検出機能では、地図情報を画面上（アプリ内部）で読み込み、その画面のスクリーンショットを端末内の文字認識（OCR）技術で解析して店舗名の候補を抽出します。この処理はすべて端末内で完結し、画像データが開発者のサーバーや第三者に送信されることはありません。
+</p>
+
+<h3>2-5. アプリの利用状況データ</h3>
+<p>
+「よく行くお店」「よく使うアプリ」などの表示を最適化するため、アプリ・チェーンの利用頻度や利用履歴を端末内に保存します。これらの情報は端末外部に送信されることはなく、アプリをアンインストールすると削除されます。
+</p>
+
+<h3>2-6. 画面上への表示（フローティングボタン）</h3>
+<p>
+決済アプリの起動操作を進めるためのフローティングボタンを画面上に表示するため、「他のアプリの上に重ねて表示」権限（SYSTEM_ALERT_WINDOW）を使用します。この権限は画面表示の目的にのみ使用され、他アプリの操作内容を取得・記録することはありません。
+</p>
+
+<h3>2-7. 購入情報</h3>
+<p>
+Pro版（買い切り¥480、チェーン登録数無制限）の購入は、Google Playの課金システムを通じて処理されます。クレジットカード番号等の決済情報は開発者側では取得・保持せず、Googleによって管理されます。
+</p>
+</section>
+
+<section>
+<h2>3. 情報の第三者提供</h2>
+<p>
+開発者は、法令に基づく場合を除き、取得した情報を本人の同意なく第三者に提供することはありません。前述のとおり、音声データの認識処理には音声認識エンジン（OSまたはGoogleの提供する仕組み）を利用しますが、これは本アプリの機能提供に必要な範囲に限られます。
+</p>
+</section>
+
+<section>
+<h2>4. 情報の保存期間・削除</h2>
+<p>
+位置情報、利用状況データ、登録したチェーン設定等は端末内にのみ保存されます。本アプリをアンインストールすることで、これらの情報は端末から削除されます。
+</p>
+</section>
+
+<section>
+<h2>5. 権限一覧</h2>
+<table>
+<tr><th>権限</th><td>利用目的</td></tr>
+<tr><th>マイク（RECORD_AUDIO）</th><td>店舗名・操作コマンドの音声入力のため</td></tr>
+<tr><th>インターネット（INTERNET）</th><td>音声認識エンジンとの通信のため</td></tr>
+<tr><th>位置情報（ACCESS_FINE_LOCATION／ACCESS_COARSE_LOCATION）</th><td>現在地に基づく店舗自動検出のため</td></tr>
+<tr><th>他アプリの上への表示（SYSTEM_ALERT_WINDOW）</th><td>操作確認用フローティングボタンの表示のため</td></tr>
+<tr><th>他アプリの検出（queries）</th><td>決済アプリ・ポイントカードアプリの起動可否判定のため</td></tr>
+</table>
+</section>
+
+<section>
+<h2>6. お子様のプライバシー</h2>
+<p>
+本アプリは、13歳未満のお子様を主な対象として設計されたものではなく、意図的にお子様から個人情報を収集することはありません。
+</p>
+</section>
+
+<section>
+<h2>7. 本ポリシーの変更</h2>
+<p>
+本ポリシーの内容は、法令の変更や本アプリの機能追加等に応じて、予告なく改定される場合があります。変更後のポリシーは本ページに掲載した時点で効力を生じるものとします。
+</p>
+</section>
+
+<section>
+<h2>8. お問い合わせ先</h2>
+<p class="note">
+本ポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。<br><br>
+開発者名：<span class="placeholder">［伊藤　滋］</span><br>
+連絡先メールアドレス：<span class="placeholder">［tamachan456ipod@gmail.com］</span>
+</p>
+</section>
+
+</main>
+
+<footer>
+  © <span class="placeholder">2026</span> スマートレジ
+</footer>
+
+</body>
+</html>
